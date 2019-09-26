@@ -1,4 +1,5 @@
-# powershell-ad-security
+# Administrator-Remote-Desktop-Groups-Users-on-Domain
+
 PowerShell Script for AD Security Assessment
 
 You can get admin and remote desktop users from computers on domain. This script is needed a computer list file. Put the file under c:\temp\ and the file name must be computerlist.csv
