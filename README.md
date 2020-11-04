@@ -1,6 +1,6 @@
 # PowerShell Scripts for Security Assessment & Audit
 
-###For users_in_administrator_groups.ps1 & users_in_local_rdp_groups.ps1
+### For users_in_administrator_groups.ps1 & users_in_local_rdp_groups.ps1
 
 Administrator & Remote Desktop Users Group Members can take with these scripts. You have to install RSAT (Active Directory Module) before use.
 
@@ -22,7 +22,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\ScriptName.ps1
 When the script running is finished, you can access output file on c:\temp\
 
 
-###For ad_audit.ps1
+### For ad_audit.ps1
 
 .Synopsis
    Script for retrieving base Domain and Forest information for auditing purposes.
