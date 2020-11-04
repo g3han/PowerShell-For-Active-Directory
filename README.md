@@ -26,6 +26,7 @@ When the script running is finished, you can access output file on c:\temp\
 
 .Synopsis
    Script for retrieving base Domain and Forest information for auditing purposes. No Need RSAT (Active Directory Module) installation for use.
+   
 .DESCRIPTION
    The script runs under the privilages of the current user against the Microsft Active Directory
    the host where the script is currently being run is joined to. The sript performs the following actions:
@@ -49,18 +50,21 @@ When the script running is finished, you can access output file on c:\temp\
     
    Each query is perform individually so in the case of a problem with the script, data or network the data for the set of enumerations
    that have run are still available. 
+   
 .EXAMPLE
 ```sh
 script01.ps1 -Limit 10000 -Path .
 ```
    
    Retrieve a maximun of 10,000 users account instead of the default 1,000 and save the results to the cureent path.
+
 .EXAMPLE
 ```sh
    script01.ps1 -Prefix ADX -Path .
 ```
 
    Retrieve the default 1,000 maximun of user accounts and save the results to the cureent path with each file having ADX appended to the beguining of each.
+
 .NOTES
    Script has been tested against Windows PowerShell 2.0, 4.0 and 5.0. The script can be ran either form a 
    domain controller or a host that is domain joined using a domain administrator account since it does not
