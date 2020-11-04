@@ -25,7 +25,7 @@ When the script running is finished, you can access output file on c:\temp\
 ### For ad_audit.ps1
 
 .Synopsis
-   Script for retrieving base Domain and Forest information for auditing purposes.
+   Script for retrieving base Domain and Forest information for auditing purposes. No Need RSAT (Active Directory Module) installation for use.
 .DESCRIPTION
    The script runs under the privilages of the current user against the Microsft Active Directory
    the host where the script is currently being run is joined to. The sript performs the following actions:
