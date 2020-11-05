@@ -80,13 +80,20 @@ script01.ps1 -Limit 10000 -Path .
 ### For CriticalUserAttributes.ps1
 
    It will give you an export for;
-    * BadPwdCount
-    * badPasswordTime
-    * lastLogon
-    * lastLogonTimestamp
-    * logonCount
-    * pwdLastSet
-    * whenCreated
+   
+   * BadPwdCount
+   
+   * badPasswordTime
+   
+   * lastLogon
+   
+   * lastLogonTimestamp
+   
+   * logonCount
+   
+   * pwdLastSet
+   
+   * whenCreated
 
    for all users in Active Directory. When the script running has done, you can find the result in C:\temp\CriticalUserAttributes.csv 
    
