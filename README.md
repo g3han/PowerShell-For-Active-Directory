@@ -75,3 +75,18 @@ script01.ps1 -Limit 10000 -Path .
    domain controller or a host that is domain joined using a domain administrator account since it does not
    have any dependency on any of the ActiveDirectory PowerShell modules and uses ADSI (Active Directory Scripting
    Interface) to retrieve all information from active directory.
+   
+   
+### For CriticalUserAttributes.ps1
+
+   It will give you an export for;
+    * BadPwdCount
+    * badPasswordTime
+    * lastLogon
+    * lastLogonTimestamp
+    * logonCount
+    * pwdLastSet
+    * whenCreated
+
+   for all users in Active Directory. When the script running has done, you can find the result in C:\temp\CriticalUserAttributes.csv 
+   
