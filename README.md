@@ -11,7 +11,7 @@ This script is needed a computer list file. If you need to get computer list, us
 Get-ADComputer -Filter * | FT Name > computerlist.txt
 ```
 
-Open and Replace txt file to csv file. Put the csv file under c:\temp\ and the file name must be computerlist.csv
+Open and Replace txt file to csv file. Becareful, Document must not include empty row. Put the csv file under c:\temp\ and the file name must be computerlist.csv
 
 If you cant run on powershell try to use this;
 ```sh
