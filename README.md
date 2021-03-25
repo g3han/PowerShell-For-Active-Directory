@@ -19,7 +19,8 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\ScriptName.ps1
 ```
 
 
-When the script running is finished, you can access output file on c:\temp\
+PS : When the script running is finished, you can access output file on c:\temp\
+PS2: compulterlist.csv first column should be name.
 
 
 ### For ad_audit.ps1
